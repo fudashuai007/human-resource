@@ -1,0 +1,166 @@
+/*
+* @Author: fudashuai007
+* @Date:   2018-11-06 14:06:01
+* @Last Modified by:   fudashuai007
+* @Last Modified time: 2018-11-12 22:56:47
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1400px;
+    height: 1100px;
+    background-color: #fff;
+    margin: 0 auto;
+
+}
+
+header {
+    background-color: #474758;
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+
+header ul {
+    list-style: none;
+    position: absolute;
+    padding-left: 0;
+    left: 30px;
+    top: 40px;
+}
+
+header ul li {
+    float: left;
+    width: 130px;
+    height: 30px;
+    margin-right: 10px;
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color:#fff;
+}
+
+.search {
+    width: 132px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 100px;
+    position: absolute;
+    left: 1200px;
+    top: 40px;
+}
+
+#main {
+    width: 1400px;
+    height: 850px;
+    background-color: #3399FF;
+    position: relative;
+    padding-top: 40px;
+}
+
+.main-text {
+    text-align: center;
+    width: 430px;
+    color: #fff;
+    font-size: 70px;
+    position: absolute;
+    left: 50%;
+    margin-left: -215px;
+}
+
+.under_line {
+    width: 400px;
+    background-color: #ccc;
+    height: 3px;
+    position: absolute;
+    left: 50%;
+    top: 115px;
+    margin-left: -200px;
+    border-radius: 15px;
+}
+
+.main-div {
+    position: absolute;
+    list-style: none;
+    left: 50%;
+    margin-left: -600px;
+    top: 140px;
+    width: 1200px;
+    /* background-color: pink;*/
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.main-div li {
+    float: left;
+    width: 380px;
+    height: 330px;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-right: 20px;
+    margin-bottom: 20px
+}
+
+.main-div-innert {
+    width: 380px;
+    height: 60px;
+    background-color: #f60;
+    text-align: center;
+}
+
+.main-div-innert .innerText {
+    color: #000;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.innerImg {
+    width: 212px;
+    height: 170px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.innerImg img {
+    width: 100%;
+}
+
+.more {
+    float: right;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    width: 96px;
+    height: 46px;
+    line-height: 46px;
+}
+
+footer {
+    width: 1400px;
+    height: 80px;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 40px;
+    margin: 0 auto;
+    position:relative;
+}
+
+footer img{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    width: 70px;
+    height:70px;
+}
+
+footer .word {
+    position: absolute;
+    right: 110px;
+    top: 50px;
+}
